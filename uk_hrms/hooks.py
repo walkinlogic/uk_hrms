@@ -1,8 +1,8 @@
 app_name = "uk_hrms"
 app_title = "Uk-HRMS"
-app_publisher = "ERPGulf"
+app_publisher = "ERPUK"
 app_description = "Uk specific additions for Frappe ERPNext HRMS module"
-app_email = "support@erpgulf.com"
+app_email = "walkin.logic@gmail.com"
 app_license = "mit"
 # required_apps = []
 
