@@ -1,0 +1,60 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-17 10:52:39.873657",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "asset_type",
+  "asset",
+  "holding_date",
+  "notes",
+  "dropping_date"
+ ],
+ "fields": [
+  {
+   "fieldname": "asset_type",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Asset type",
+   "options": "Asset type"
+  },
+  {
+   "fieldname": "asset",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Asset"
+  },
+  {
+   "fieldname": "holding_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Holding date"
+  },
+  {
+   "fieldname": "notes",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Notes"
+  },
+  {
+   "fieldname": "dropping_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Dropping date"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-17 14:41:36.462430",
+ "modified_by": "Administrator",
+ "module": "Uk-HRMS",
+ "name": "employees Asset",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

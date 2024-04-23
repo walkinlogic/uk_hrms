@@ -1,0 +1,84 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-16 12:28:15.179922",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "title",
+  "gender",
+  "date_of_birth",
+  "relation_type",
+  "id_number",
+  "id_issue_date",
+  "id_expiry_date",
+  "sponsorship_type"
+ ],
+ "fields": [
+  {
+   "fieldname": "title",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Relative Name"
+  },
+  {
+   "fieldname": "gender",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Gender",
+   "options": "select.\nmale.\nfemale.\nother.",
+   "search_index": 1
+  },
+  {
+   "fieldname": "date_of_birth",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "Date of birth\u2028"
+  },
+  {
+   "fieldname": "relation_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Relation Type",
+   "options": "select\nWife\nSon\nDaughter\nFather\nMother\nSon-in-Law\nDaughter-in-Law,\nOther"
+  },
+  {
+   "fieldname": "id_number",
+   "fieldtype": "Int",
+   "in_list_view": 1,
+   "label": " ID Number\u2028"
+  },
+  {
+   "fieldname": "id_issue_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "ID Issue date\u2028"
+  },
+  {
+   "fieldname": "id_expiry_date",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "ID expiry date\u2028"
+  },
+  {
+   "fieldname": "sponsorship_type",
+   "fieldtype": "Select",
+   "in_list_view": 1,
+   "label": "Sponsorship type",
+   "options": "Company\nIndividual"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-17 12:58:15.093418",
+ "modified_by": "Administrator",
+ "module": "Uk-HRMS",
+ "name": "Employee child table",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
